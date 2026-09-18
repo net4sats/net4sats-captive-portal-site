@@ -252,7 +252,7 @@ export const AccessGranted = ({ allocation }) => {
   const balanceUrl = `${getnet4satsBaseUrl()}/portal`;
 
   return <div className="net4sats-captive-portal-access-granted">
-    <div className="net4sats-captive-portal-access-granted-checkmark">
+    <div id="captive-portal-access-granted-checkmark" className="net4sats-captive-portal-access-granted-checkmark">
       <AccessGrantedIcon />
     </div>
     <div className="net4sats-captive-portal-access-granted-label">
